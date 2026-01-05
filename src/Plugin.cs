@@ -9,7 +9,7 @@ using System.Security.Permissions;
 
 namespace AIPlayerMain;
 
-[BepInPlugin("com.author.testmod", "Test Mod", "0.1.0")]
+[BepInPlugin("com.danim.aiplayer", "AI Player", "0.1.0")]
 sealed class Plugin : BaseUnityPlugin
 {
     public static new ManualLogSource Logger;
