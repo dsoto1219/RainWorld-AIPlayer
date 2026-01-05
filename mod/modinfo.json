@@ -2,9 +2,10 @@
   "id": "aiplayer",
   "name": "AI Player",
   "version": "0.1.0",
-  "authors": "Author",
-  "description": "Put a neat description here",
-  "tags": [],
+  "target_game_version": "v1.11.5",
+  "authors": "danim",
+  "description": "Machine learning model that figures out how to play Rain World",
+  "tags": ["Game Modes"],
   "requirements": [],
   "requirements_names": [],
   "checksum_override_version": false
