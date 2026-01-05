@@ -4,7 +4,7 @@
     <TargetFramework>net48</TargetFramework>
     <LangVersion>13</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>./plugins</OutputPath>
+    <OutputPath>..\plugins\</OutputPath>
     <PathMap>$(MSBuildProjectDirectory)=/$(SolutionName)</PathMap>
   </PropertyGroup>
 
@@ -93,7 +93,7 @@
     
   <Target Name="GenerateMod" AfterTargets="PostBuildEvent" Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <ItemGroup>
-      <RemovePlugins Include="../mod/newest/plugins/*.pdb" />
+		<RemovePlugins Include="..\plugins\*.pdb" />
     </ItemGroup>
         
     <Delete Files="@(RemovePlugins)" />
