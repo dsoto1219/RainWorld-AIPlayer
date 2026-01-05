@@ -399,5 +399,6 @@ FodyWeavers.xsd
 .idea/
 
 # Ignore mod output
+plugins/
 mod/plugins/
 mod/newest/plugins/
